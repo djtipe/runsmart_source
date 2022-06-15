@@ -1,0 +1,15 @@
+.consultation {
+    min-height: 680px;
+    background: url("../img/consultation_bg.jpg") center center/cover no-repeat;
+    padding: 100px 0 108px;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;    }
+}
