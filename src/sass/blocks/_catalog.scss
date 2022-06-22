@@ -44,9 +44,12 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: space-between;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 303px;
@@ -161,6 +164,21 @@
 
                 }             
             } 
+        }
+        &__link-back {
+            position: absolute;
+            color: $main-color;
+            text-decoration: underline;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 20px));
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            color: #C70101;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }

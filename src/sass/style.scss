@@ -11,6 +11,11 @@ a {
     max-width: 970px;
     margin: 0 auto;
 }
+input {
+    &:focus {
+        box-shadow: 0 0 20px $main-color;
+    }
+}
 
 @import "blocks/promo"; 
 @import "blocks/header";
@@ -21,5 +26,8 @@ a {
 @import "blocks/forms";
 @import "blocks/carousel";
 @import "blocks/catalog";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import "blocks/modal";
 
 @import "base/media";

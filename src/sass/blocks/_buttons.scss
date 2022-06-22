@@ -8,7 +8,10 @@
     color: #FFFFFF;
     background-color: $main-color;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
+    &:hover {
+        box-shadow: 0 0 20px $main-color;
+    } 
     &_main {
         width: 303px;
         height: 54px;
