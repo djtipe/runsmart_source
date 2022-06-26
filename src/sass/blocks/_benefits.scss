@@ -32,5 +32,17 @@
             color: #FF0000;
         }      
     }
+    &__icon{
+        &_animated {
+            img {
+                animation-name: hearthbeat;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+        }
+    }
 
 }

@@ -18,4 +18,13 @@
             margin-bottom: 20px;
         }
     }
+    input.error {
+        border: 1px solid red;
+    }
+    label.error {
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+    }
 }
